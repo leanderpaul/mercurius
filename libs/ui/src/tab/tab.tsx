@@ -1,0 +1,32 @@
+/**
+ * Importing NPM packages and components
+ */
+
+/**
+ * Importing user-defined components
+ */
+
+/**
+ * Importing user-defined utils.
+ */
+
+/**
+ * Types
+ */
+
+export interface TabProps {
+  children?: JSX.Element | JSX.Element[];
+}
+
+function Tab(props: TabProps) {
+  return <div></div>;
+}
+
+/**
+ * Styled components
+ */
+
+/**
+ * Exporting the component
+ */
+export default Tab;

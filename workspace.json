@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "projects": {
+    "server": "apps/server",
+    "admin-panel": "apps/admin-panel",
+    "athena": "libs/athena",
+    "ui": "libs/ui",
+    "web-client": "apps/web-client"
+  }
+}

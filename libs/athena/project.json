@@ -1,0 +1,33 @@
+{
+  "root": "libs/athena",
+  "sourceRoot": "libs/athena/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/athena",
+        "main": "libs/athena/src/index.ts",
+        "tsConfig": "libs/athena/tsconfig.lib.json",
+        "assets": ["libs/athena/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/athena/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/athena"],
+      "options": {
+        "jestConfig": "libs/athena/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}
