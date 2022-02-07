@@ -1,0 +1,37 @@
+{
+  "React Functional Component": {
+    "prefix": "rfcc",
+    "body": [
+      "/**",
+      " * Importing NPM packages and components",
+      " */",
+      "",
+      "/**",
+      " * Importing user-defined components",
+      " */",
+      "",
+      "/**",
+      " * Importing user-defined utils",
+      " */",
+      "",
+      "/**",
+      " * Types",
+      " */",
+      "",
+      "export interface $1Props {}",
+      "",
+      "function $1(props: $1Props) {",
+      "\treturn (",
+      "\t\t<div>$2</div>",
+      "\t)",
+      "}",
+      "",
+      "/**",
+      " * Styled components",
+      " */",
+      "",
+      "export default $1"
+    ],
+    "description": "Template of react functional component"
+  }
+}
