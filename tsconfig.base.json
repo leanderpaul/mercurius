@@ -16,8 +16,15 @@
     "baseUrl": ".",
     "esModuleInterop": true,
     "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "removeComments": true,
+    "strict": true,
+    "strictNullChecks": true,
     "paths": {
       "@mercurius/athena": ["libs/athena/src/index.ts"],
+      "@mercurius/error": ["libs/error/src/index.ts"],
       "@mercurius/ui": ["libs/ui/src/index.ts"]
     }
   },

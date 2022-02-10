@@ -3,7 +3,7 @@
   "projects": {
     "server": "apps/server",
     "admin-panel": "apps/admin-panel",
-    "athena": "libs/athena",
+    "error": "libs/error",
     "ui": "libs/ui",
     "web-client": "apps/web-client"
   }

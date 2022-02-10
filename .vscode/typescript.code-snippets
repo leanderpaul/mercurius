@@ -1,0 +1,24 @@
+{
+  "TS File Template": {
+    "prefix": "ts",
+    "body": [
+      "/**",
+      " * Importing NPM Packages",
+      " */",
+      "",
+      "/**",
+      " * Importing user-defined modules",
+      " */",
+      "",
+      "/**",
+      " * Types",
+      " */",
+      "",
+      "/**",
+      " * Constants",
+      " */",
+      ""
+    ],
+    "description": "Typescript File comments template"
+  }
+}
